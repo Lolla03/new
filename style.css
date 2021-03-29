@@ -1,0 +1,35 @@
+.body {
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 100px 20px;
+}
+
+.menu {
+  padding-right: 30px;
+}
+.menu__link {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+
+}
+
+.main {
+  width: 40%;
+  padding: 100px 30px;
+}
+
+.main__btn {
+  padding: 10px 50px;
+  background-color: #0000FF;
+  color: white;
+}
